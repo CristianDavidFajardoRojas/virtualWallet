@@ -28,3 +28,8 @@
     font-family: "Semibold";
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf);
 }
+
+@font-face {
+    font-family: "Regular";
+    src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
+}
