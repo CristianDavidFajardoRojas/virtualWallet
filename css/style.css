@@ -6,9 +6,12 @@
     box-sizing: border-box;
 }
 
+.header {
+    background: var(--color-1);
+}
+
 .section__logo{
-    padding: 10px 23px;
-    background: red;
+    padding: 13px 23px;
     display: flex;
     justify-content: space-between;
 }
@@ -17,20 +20,36 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 1.1em;
+    font-size: .8em;
     color: white;
     font-family: "Bold";
 }
 
 .section__logo .div__sectionlogo img{
-    width: 26px;
-    height: 26px;
+    width: 23px;
+    height: 23px;
 }
 
 .div__lines img {
     width: 34px;
     height: 34px;
 }
+
+.section__text {
+    color: white;
+    padding: 15px 23px;
+    font-size: 1.7em;
+}
+
+.section__text h2{
+   font-family: "Heavy";
+}
+
+.section__text p{
+    font-family: "Light";
+    font-size: 1.2em;
+ }
+
 
 
 
