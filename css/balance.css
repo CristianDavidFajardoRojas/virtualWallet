@@ -1,0 +1,267 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+header {
+    position: relative;
+}
+
+.banner {
+    z-index: -1;
+    position: absolute;
+    background: var(--color-1);
+    top: -15%;
+    width: 100%;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(../storage/img/MainBackground.jpg);
+    background-size: 100% 100%;
+}
+
+.banner > img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container__circle{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.GreenCircle {
+    background: var(--color-2);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .3s;
+}
+
+.GreenCircle:Hover {
+    transform: scale(1.05);
+}
+
+.GreenCircle h5 {
+    font-family: "Bold";
+    color: white;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.GreenCircle p {
+    font-family: "Bold";
+    color: white;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.GreenCircle span {
+    font-size: 1rem;
+}
+
+.section__logo{
+    padding: 10px 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__sectionlogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: .8em;
+    letter-spacing: 0.2em;
+    color: white;
+    font-family: "Bold";
+}
+
+.section__logo .div__sectionlogo img{
+    width: 35px;
+    height: 35px;
+}
+
+.div__lines img {
+    width: 34px;
+    height: 34px;
+    transition-duration: .3s;
+}
+
+.div__lines img:hover {
+    transform: scale(1.2);
+}
+
+.button__section {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    grid-template-columns: repeat(autofit);
+    grid-auto-flow: column;
+    gap: 3%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 30px 43px 0px ;
+}
+
+.button__section button{
+    height: 35px;
+    border-radius: 30px ;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Regular";
+    width: 100px;
+    font-size: 1.1rem;
+    transition-duration: .3s;
+    margin: 5px 0;
+}
+
+.button__section button:hover {
+    transform: scale(1.05);
+}
+
+.button__section button:first-child{
+    grid-row: 1/1;
+    grid-column: 1/2;
+    background: var(--color-1);
+    color: white;
+    border-color: var(--color-1);
+}
+
+.button__section button:nth-child(2){
+    background: white;
+    grid-row:1/1 ;
+    grid-column: 2/3;
+    color: var(--color-2);
+    border: 2px solid var(--color-2);
+    width: 80px;
+}
+
+.button__section button:last-child{
+    background: white;
+    grid-row: 1/1;
+    grid-column: 3/4;
+    color: grey;
+    border: 2px solid rgb(182, 182, 182);
+}
+
+.graph {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.graph img {
+    width: 400px;
+}
+
+
+.GreenAdd {
+    margin-top: 20px;
+    background: linear-gradient(to left, rgb(255, 233, 209), rgb(255, 181, 44));
+    padding: 40px 23px 80px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    position: relative;
+}
+
+.GreenAdd > div > img {
+    width: 104px;
+    transition-duration: .3s;
+}
+
+.GreenAdd > div > img:hover {
+    transform: scale(1.2);
+}
+
+.GreenAdd__text h4 {
+    font-family: "Bold";
+    font-size: 1.45rem;
+}
+
+.GreenAdd__text p {
+    font-family: "Regular";
+    font-size: .85rem;
+    color: #737b85;
+}
+
+.GreenAdd > img {
+    position: absolute;
+    width: 32px;
+    top: 10px;
+    right: 10px;
+    transition-duration: .3s;
+}
+
+.GreenAdd > img:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer__ul {
+    background: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__ul li a img{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    transition-duration: .3s;
+}
+
+.footer__ul li a img:hover {
+    transform: scale(1.2);
+}
+
+.footer__ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.footer__ul li a img:nth-child(2){
+    width: 6px;
+    height: 6px;
+}
