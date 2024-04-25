@@ -1,0 +1,71 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section__logo{
+    padding: 10px 23px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__sectionlogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1em;
+    color: white;
+    font-family: "Bold";
+}
+
+.section__logo .div__sectionlogo img{
+    width: 26px;
+    height: 26px;
+}
+
+.div__lines img {
+    width: 34px;
+    height: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer__ul {
+    background: var(--color-1);
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__ul li a img{
+    object-fit: contain;
+    width: 35px;
+    height: 35px;
+}
+
+
+
