@@ -6,8 +6,12 @@
     box-sizing: border-box;
 }
 
-.header {
+body {
     background: var(--color-1);
+    background-image: url(../storage/img/BG.svg);
+}
+
+.header {
 }
 
 .section__logo{
@@ -21,6 +25,7 @@
     align-items: center;
     gap: 15px;
     font-size: .8em;
+    letter-spacing: 0.5em;
     color: white;
     font-family: "Bold";
 }
@@ -49,6 +54,69 @@
     font-family: "Light";
     font-size: 1.2em;
  }
+
+.section__savingsassets {
+    color: white;
+    display: flex;
+    padding: 5px 23px;
+    gap: 40px;
+ }
+
+.section__savingsassets div {
+    position: relative;
+    font-family: "Medium";
+ }
+
+.section__savingsassets div p {
+    font-size: 1.2em;
+    margin-top: 5px;
+ }
+
+.section__savingsassets div p strong {
+    font-size: 1.3em;
+
+ }
+
+ .section__savingsassets div span {
+    font-size: 1em;
+}
+
+.assets span, .assets p {
+    margin-left: 10px;
+}
+
+.progress1 {
+    width: 150px;
+}
+
+.progress2 {
+    width: 150px;
+}
+
+.progress1[value] {
+    --color: var(--color-2);
+ }
+
+progress[value] {
+    --color: var(--color-3);
+    --background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    border-radius: 1em;
+    background: var(--background);
+    height: 7px;
+  }
+  progress[value]::-webkit-progress-bar {  
+    border-radius: 1em;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-radius: 1em;
+    background: var(--color);
+  }
+ 
 
 
 
