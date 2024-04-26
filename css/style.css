@@ -9,13 +9,16 @@
 body {
     background: var(--color-1);
     background-image: url(../storage/img/BG.svg);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .header {
 }
 
 .section__logo{
-    padding: 13px 23px;
+    padding: 10px 23px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,8 +45,8 @@ body {
 
 .section__text {
     color: white;
-    padding: 15px 23px;
-    font-size: 1.7em;
+    padding: 10px 23px;
+    font-size: 1.5em;
 }
 
 .section__text h2{
@@ -52,14 +55,14 @@ body {
 
 .section__text p{
     font-family: "Light";
-    font-size: 1.2em;
+    font-size: 1.49em;
  }
 
 .section__savingsassets {
     color: white;
     display: flex;
-    padding: 5px 23px;
-    gap: 40px;
+    justify-content: space-between;
+    padding: 0px 23px;
  }
 
 .section__savingsassets div {
@@ -68,17 +71,17 @@ body {
  }
 
 .section__savingsassets div p {
-    font-size: 1.2em;
+    font-size: .7em;
     margin-top: 5px;
  }
 
 .section__savingsassets div p strong {
-    font-size: 1.3em;
+    font-size: 2em;
 
  }
 
  .section__savingsassets div span {
-    font-size: 1em;
+    font-size: .8em;
 }
 
 .assets span, .assets p {
@@ -117,8 +120,30 @@ progress[value] {
     background: var(--color);
   }
  
+main {
+    background: white;
+    width: 100vw;
+    height: 70vh;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
 
+.Activities {
+    display: flex;
+    flex-direction: column;
+    background: red;
+    padding: 40px 23px;
+}
 
+.Activities article {
+    display: flex;
+    background: blue;
+    gap: 35px;
+}
+
+.Activities article div {
+    background: yellow;
+}
 
 
 
@@ -140,7 +165,7 @@ progress[value] {
 
 .footer__ul {
     background: var(--color-1);
-    height: 90px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
