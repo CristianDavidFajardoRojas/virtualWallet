@@ -123,9 +123,9 @@ progress[value] {
 main {
     background: white;
     width: 100vw;
-    height: 200vh;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
+    padding-bottom: 60px;
 }
 
 .Activities {
@@ -171,9 +171,55 @@ main {
     box-shadow: 0px 0px 10px var(--color-3);
 }
 
+.transactions__title {
+    padding: 0px 23px 23px 23px;
+    font-family: "bold";
+    font-size: 1.3rem;
+    color: var(--color-1);
+}
 
+.article__movement {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 23px;
+    height: 65px;
+}
 
-   
+.article__leftside {
+    display: flex;
+}
+
+.article__leftside {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-family: "Bold";
+    font-size: 1.1rem;
+    color: var(--color-1);
+}
+
+.article__leftside span {
+    color: gray;
+    font-size: .8rem;
+    font-family: "Medium";
+}
+
+.data__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: "Bold";
+    font-size: 1.1rem;
+    color: var(--color-1);
+}
+
+.data__info span {
+    color: gray;
+    font-size: .8rem;
+    font-family: "Medium";
+}
+
 
 
 
