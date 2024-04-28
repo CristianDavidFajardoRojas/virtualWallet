@@ -116,6 +116,20 @@ button {
     height: 24px;
 }
 
+.section__cards {
+    background: green;
+    padding-top: 20px;
+}
+
+.cards__title {
+    margin-left: 23px;
+    font-family: "bold";
+    font-size: 1.34rem;
+    color: var(--color-1);
+}
+
+
+
 
 
 
