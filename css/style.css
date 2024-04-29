@@ -129,14 +129,14 @@ main {
 }
 
 .Activities {
-    margin-top: 7%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     font-family: "bold";
     font-size: 1.3rem;
     color: var(--color-1);
     padding-right: 23px;
-}
+}       
 
 .div__activities {
     padding-left: 23px;
@@ -148,7 +148,7 @@ main {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     padding: 10px 6px 23px 23px;
 }
 
@@ -171,6 +171,14 @@ main {
     box-shadow: 0px 0px 10px var(--color-3);
 }
 
+.transactions__list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 250px;
+}
+
 .transactions__title {
     padding: 0px 23px 23px 23px;
     font-family: "bold";
@@ -183,10 +191,6 @@ main {
     justify-content: space-between;
     padding: 0px 23px;
     height: 65px;
-}
-
-.article__leftside {
-    display: flex;
 }
 
 .article__leftside {
