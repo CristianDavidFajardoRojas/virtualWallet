@@ -255,9 +255,21 @@ main {
 }
 
 .footer__ul li a img{
-    object-fit: contain;
     width: 35px;
     height: 35px;
+    position: relative;
+}
+
+.footer__ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.footer__ul li a img:nth-child(2){
+    width: 6px;
+    height: 6px;
 }
 
 
