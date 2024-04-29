@@ -12,27 +12,63 @@ body {
 
 header {
     position: relative;
-    background: ;
 }
 
-.header > img {
-    position: absolute;
-    width: 200%;
-    height: 1000px;
-    background: var(--color-1);
+.banner {
     z-index: -1;
-    overflow: hidden;
-    top: -2000%;
-    left: 0;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    position: absolute;
+    background: var(--color-1);
+    top: -100px;
+    width: 100%;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.header img {
+.banner > img {
     position: relative;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+}
+
+.container__circle{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.GreenCircle {
+    background: var(--color-2);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.GreenCircle h5 {
+    font-family: "Bold";
+    color: white;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.GreenCircle p {
+    font-family: "Bold";
+    color: white;
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.GreenCircle span {
+    font-size: 1rem;
 }
 
 .section__logo{
@@ -60,6 +96,19 @@ header {
     width: 34px;
     height: 34px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     bottom: 0;
