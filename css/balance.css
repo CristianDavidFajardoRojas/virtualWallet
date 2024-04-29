@@ -1,0 +1,85 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    background: ;
+}
+
+.header > img {
+    position: absolute;
+    width: 200%;
+    height: 1000px;
+    background: var(--color-1);
+    z-index: -1;
+    overflow: hidden;
+    top: -2000%;
+    left: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.header img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.section__logo{
+    padding: 10px 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__sectionlogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: .8em;
+    letter-spacing: 0.2em;
+    color: white;
+    font-family: "Bold";
+}
+
+.section__logo .div__sectionlogo img{
+    width: 23px;
+    height: 23px;
+}
+
+.div__lines img {
+    width: 34px;
+    height: 34px;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.footer__ul {
+    background: var(--color-1);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.footer__ul li a img{
+    object-fit: contain;
+    width: 35px;
+    height: 35px;
+}
+
