@@ -137,6 +137,7 @@ button {
     padding-bottom: 80px;
     display: flex;
     overflow-x: scroll;
+    scrollbar-width: none;
     width: auto;
     gap: 30px;
 }

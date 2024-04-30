@@ -149,6 +149,7 @@ main {
     align-items: center;
     gap: 20px;
     overflow-y: hidden;
+    scrollbar-width: none;
     padding: 10px 6px 23px 23px;
 }
 
@@ -177,6 +178,7 @@ main {
     flex-direction: column;
     overflow-y: scroll;
     height: 250px;
+    scrollbar-width: none;
 }
 
 .transactions__title {
