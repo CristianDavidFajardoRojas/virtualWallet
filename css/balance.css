@@ -25,6 +25,8 @@ header {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    background-image: url(../storage/img/MainBackground.jpg);
+    background-size: 100% 100%;
 }
 
 .banner > img {
@@ -174,7 +176,7 @@ header {
 
 .GreenAdd {
     margin-top: 20px;
-    background: #E1FFEF;
+    background: #ffeee1;
     padding: 40px 23px 80px;
     display: flex;
     align-items: center;
