@@ -41,6 +41,11 @@ body {
 .div__lines img {
     width: 34px;
     height: 34px;
+    transition-duration: .3s;
+}
+
+.div__lines img:hover {
+    transform: scale(1.2);
 }
 
 .section__text {
@@ -170,6 +175,12 @@ main {
     color: var(--color-1);
     font-size: 1rem;
     box-shadow: 0px 0px 10px var(--color-3);
+    transition-duration: .3s;
+}
+
+.Activities ul li div:hover {
+    background: rgb(213, 255, 213);
+    transform: scale(1.05);
 }
 
 .transactions__list {
@@ -193,6 +204,12 @@ main {
     justify-content: space-between;
     padding: 0px 23px;
     height: 65px;
+    transition-duration: .3s;
+}
+
+.article__movement:hover {
+    transform: scale(1.05);
+    background: paleturquoise;
 }
 
 .article__leftside {
@@ -260,6 +277,11 @@ main {
     width: 35px;
     height: 35px;
     position: relative;
+    transition-duration: .3s;
+}
+
+.footer__ul li a img:hover {
+    transform: scale(1.2);
 }
 
 .footer__ul li a {
