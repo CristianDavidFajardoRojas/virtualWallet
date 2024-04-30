@@ -48,6 +48,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition-duration: .3s;
+}
+
+.GreenCircle:Hover {
+    transform: scale(1.05);
 }
 
 .GreenCircle h5 {
@@ -94,6 +99,11 @@ header {
 .div__lines img {
     width: 34px;
     height: 34px;
+    transition-duration: .3s;
+}
+
+.div__lines img:hover {
+    transform: scale(1.2);
 }
 
 .button__section {
@@ -118,6 +128,12 @@ header {
     font-family: "Regular";
     width: 100px;
     font-size: 1.1rem;
+    transition-duration: .3s;
+    margin: 5px 0;
+}
+
+.button__section button:hover {
+    transform: scale(1.05);
 }
 
 .button__section button:first-child{
@@ -147,15 +163,14 @@ header {
 
 .graph {
     margin-top: 30px;
-
     display: flex;
     justify-content: center;
-    
 }
 
 .graph img {
     width: 400px;
 }
+
 
 .GreenAdd {
     margin-top: 20px;
@@ -169,6 +184,11 @@ header {
 
 .GreenAdd > div > img {
     width: 104px;
+    transition-duration: .3s;
+}
+
+.GreenAdd > div > img:hover {
+    transform: scale(1.2);
 }
 
 .GreenAdd__text h4 {
@@ -187,6 +207,11 @@ header {
     width: 32px;
     top: 10px;
     right: 10px;
+    transition-duration: .3s;
+}
+
+.GreenAdd > img:hover {
+    transform: scale(1.2);
 }
 
 
@@ -220,6 +245,11 @@ header {
     width: 35px;
     height: 35px;
     position: relative;
+    transition-duration: .3s;
+}
+
+.footer__ul li a img:hover {
+    transform: scale(1.2);
 }
 
 .footer__ul li a {
