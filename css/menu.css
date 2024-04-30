@@ -63,7 +63,7 @@
 }
 
 .green__circle {
-    background: #E1FFEF;
+    background: #ffeee1;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -211,31 +211,35 @@ button:hover {
     position: relative;
     background: var(--color-1);
     overflow: hidden;
+    background-image: url(../storage/img/card1.jpeg);
+    background-size: 100% 100%;
 }
 
-.card1 > img{
-    position: absolute;
-    object-fit: cover;
-    width: 200px;
-    height: 311px;
-    top: 0;
-}
 
 .card2 {
     position: relative;
     background: rgb(154, 158, 168);
     overflow: hidden;
+    background-image: url(../storage/img/card2.jpg);
+    background-size: 100% 100%;
 }
 
-.card2 > img {
-    position: absolute;
-    object-fit: cover;
-    width: 200px;
-    height: 311px;
-    top: 0;
+.card3 {
+    position: relative;
+    background: var(--color-1);
+    overflow: hidden;
+    background-image: url(../storage/img/card3.jpg);
+    background-size: 100% 100%;
 }
 
 
+.card4 {
+    position: relative;
+    background: rgb(154, 158, 168);
+    overflow: hidden;
+    background-image: url(../storage/img/card4.jpg);
+    background-size: 100% 100%;
+}
 
 
 
