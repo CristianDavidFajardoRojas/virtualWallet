@@ -30,6 +30,11 @@
 .div__lines img {
     width: 34px;
     height: 34px;
+    transition-duration: .3s;
+}
+
+.div__lines img:hover {
+    transform: scale(1.2);
 }
 
 .tips {
@@ -106,6 +111,11 @@ button {
     width: 112px;
     border-radius: 40px;
     margin-top: 4px;
+    transition-duration: .3s;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 .x__button {
@@ -114,6 +124,11 @@ button {
     top: 10px;
     width: 24px;
     height: 24px;
+    transition-duration: .3s;
+}
+
+.x__button:hover {
+    transform: scale(1.3);
 }
 
 .section__cards {
@@ -131,16 +146,18 @@ button {
 }
 
 .article__allcards {
-    margin-top: 15px;
+   
     padding-left: 23px;
     padding-right: 23px;
     padding-bottom: 80px;
+    padding-top: 15px;
     display: flex;
     overflow-x: scroll;
     scrollbar-width: none;
     width: auto;
     gap: 30px;
 }
+
 
 
 .article__allcards section > div {
@@ -152,6 +169,11 @@ button {
     height: 311px;
     color: white;
     border-radius: 20px;
+    transition-duration: .3s;
+}
+
+.article__allcards section > div:hover {
+    transform: scale(1.05);
 }
 
 .chip__num {
@@ -239,6 +261,11 @@ button {
     width: 35px;
     height: 35px;
     position: relative;
+    transition-duration: .3s;
+}
+
+.footer__ul li a img:hover {
+    transform: scale(1.2);
 }
 
 .footer__ul li a {
