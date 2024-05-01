@@ -94,8 +94,8 @@ header {
 }
 
 .section__logo .div__sectionlogo img{
-    width: 23px;
-    height: 23px;
+    width: 35px;
+    height: 35px;
 }
 
 .div__lines img {
@@ -176,7 +176,7 @@ header {
 
 .GreenAdd {
     margin-top: 20px;
-    background: #ffeee1;
+    background: linear-gradient(to left, rgb(255, 233, 209), rgb(255, 181, 44));
     padding: 40px 23px 80px;
     display: flex;
     align-items: center;

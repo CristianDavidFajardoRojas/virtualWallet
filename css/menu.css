@@ -1,5 +1,6 @@
 @import url(variables.css);
 
+
 *{
     padding: 0;
     margin: 0;
@@ -23,13 +24,13 @@
 }
 
 .section__logo .div__sectionlogo img{
-    width: 33px;
-    height: 33px;
+    width: 35px;
+    height: 35px;
 }
 
 .div__lines img {
-    width: 34px;
-    height: 34px;
+    width: 25px;
+    height: 25px;
     transition-duration: .3s;
 }
 
@@ -55,7 +56,7 @@
     display: flex;
     overflow-x: scroll;
     padding: 10px 23px;
-    gap: 26px;
+    gap: 46px;
 }
 
 .article__tips {
@@ -70,6 +71,27 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px var(--color-3);
     flex-shrink: 0;
+}
+
+.article__tips::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 20px;
+    background: linear-gradient(to right, transparent, rgba(255, 169, 9, 0.158));
+    animation: light 2s linear infinite;
+}
+
+@keyframes light {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 .green__circle {
@@ -87,8 +109,8 @@
 }
 
 .green__circle img {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 }
 
 .tip__info {
@@ -96,6 +118,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 5px;
+    padding-right: 18px;
 }
 
 .tip__info p {
@@ -180,10 +203,12 @@ button:hover {
     color: white;
     border-radius: 20px;
     transition-duration: .3s;
+    filter: grayscale(1);
 }
 
 .article__allcards section > div:hover {
     transform: scale(1.05);
+    filter: grayscale(0);
 }
 
 .chip__num {
@@ -213,9 +238,6 @@ button:hover {
     padding-left: 17px;
 }
 
-.bank__logo img {
-    width: 40px;
-}
 
 .card1 {
     position: relative;

@@ -40,8 +40,8 @@ body {
 }
 
 .div__lines img {
-    width: 34px;
-    height: 34px;
+    width: 25px;
+    height: 25px;
     transition-duration: .3s;
 }
 
@@ -220,6 +220,11 @@ main {
     font-family: "Bold";
     font-size: 1.1rem;
     color: var(--color-1);
+}
+
+.article__leftside img {
+    width: 40px;
+    height: 40px;
 }
 
 .article__leftside span {
