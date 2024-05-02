@@ -57,6 +57,7 @@
     overflow-x: scroll;
     padding: 10px 23px;
     gap: 46px;
+    scrollbar-width: none;
 }
 
 .article__tips {
