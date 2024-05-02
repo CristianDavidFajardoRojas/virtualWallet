@@ -9,4 +9,4 @@ Watch my demo video to get a glimpse of the user interface and design of my Virt
 
 To explore the design of our Virtual Wallet prototype, simply open the index.html file in your web browser. You can navigate through the different sections of the application to see the layout, styling, and interactions i've implemented using HTML and CSS.
 
-https://www.youtube.com/watch?v=cwm4Ju_h4oc
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cwm4Ju_h4oc?si=V3SgHi_lcSy-48eX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
